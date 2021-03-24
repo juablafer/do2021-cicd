@@ -10,7 +10,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "node index & npx mocha test.js",
+    "test": "npx mocha test.js",
     "start": "node index.js"
   },
   "dependencies": {
