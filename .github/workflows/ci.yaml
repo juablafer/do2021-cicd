@@ -13,5 +13,5 @@ jobs:
       - name: Run tests
         run: | # This way we can run several commands
           npm start &
-          sleep 2000
+          sleep 2
           npm test
