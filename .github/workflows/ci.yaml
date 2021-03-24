@@ -7,4 +7,5 @@ jobs:
   simpleTest:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello world"
+      - uses: actions/checkout@v2
+      - run: npm test
