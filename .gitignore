@@ -59,3 +59,8 @@ typings/
 
 # next.js build output
 .next
+
+keys/
+deploy/key.pem
+deploy/.terraform
+deploy/.terraform.lock.hcl
